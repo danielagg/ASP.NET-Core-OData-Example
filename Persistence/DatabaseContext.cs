@@ -184,6 +184,97 @@ namespace Persistence
                    ArtistId = 1,
                    Name = "...Like Clockwork",
                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 3,
+                   ArtistId = 2,
+                   Name = "Led Zeppelin II",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 4,
+                   ArtistId = 2,
+                   Name = "Led Zeppelin IV",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 5,
+                   ArtistId = 3,
+                   Name = "Masters of Reality",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 6,
+                   ArtistId = 3,
+                   Name = "Paranoid",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 7,
+                   ArtistId = 4,
+                   Name = "This Land",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 8,
+                   ArtistId = 5,
+                   Name = "Them Crooked Vultures",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 9,
+                   ArtistId = 6,
+                   Name = "\"Let's Rock \"",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 10,
+                   ArtistId = 6,
+                   Name = "El Camino",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 11,
+                   ArtistId = 7,
+                   Name = "Laugh? I Nearly Bought One!",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 12,
+                   ArtistId = 7,
+                   Name = "Absolute Dissent",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 13,
+                   ArtistId = 7,
+                   Name = "Brighter Than A Thousand Suns",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 14,
+                   ArtistId = 8,
+                   Name = "Specter At The  Feast",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+               },
+               new Album
+               {
+                   Id = 15,
+                   ArtistId = 8,
+                   Name = "B.R.M.C.",
+                   CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
                }
             });
         }

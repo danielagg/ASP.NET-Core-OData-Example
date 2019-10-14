@@ -9,6 +9,8 @@
     <Compile Remove="Migrations\20191014171754_001_Initialize_DB.Designer.cs" />
     <Compile Remove="Migrations\20191014173239_001_Initialize_DB.cs" />
     <Compile Remove="Migrations\20191014173239_001_Initialize_DB.Designer.cs" />
+    <Compile Remove="Migrations\20191014175942_001_Initialize_DB.cs" />
+    <Compile Remove="Migrations\20191014175942_001_Initialize_DB.Designer.cs" />
   </ItemGroup>
 
   <ItemGroup>
