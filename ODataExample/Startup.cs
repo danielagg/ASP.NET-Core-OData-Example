@@ -39,13 +39,13 @@ namespace ODataExample
                 });
             });
 
-            //services.AddDbContextPool<DatabaseContext>(options =>
-            //    options.UseLazyLoadingProxies()
-            //    .UseSqlServer(databaseConnectionString, builder =>
-            //    {
-            //        builder.MigrationsAssembly("ODataExample.Persistence");
-            //        builder.CommandTimeout((int)TimeSpan.FromMinutes(2).TotalSeconds);
-            //    }));
+            services.AddDbContextPool<DatabaseContext>(options =>
+                options.UseLazyLoadingProxies()
+                .UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=PlaylistsODataExample;Trusted_Connection=True;", builder =>
+                {
+                    builder.MigrationsAssembly("Persistence");
+                    builder.CommandTimeout((int)TimeSpan.FromMinutes(2).TotalSeconds);
+                }));
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
