@@ -12,6 +12,8 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerUI;
+using Microsoft.EntityFrameworkCore;
+using Persistence;
 
 namespace ODataExample
 {
@@ -36,6 +38,14 @@ namespace ODataExample
                     Title = "OData w/ ASP.NET Core"
                 });
             });
+
+            //services.AddDbContextPool<DatabaseContext>(options =>
+            //    options.UseLazyLoadingProxies()
+            //    .UseSqlServer(databaseConnectionString, builder =>
+            //    {
+            //        builder.MigrationsAssembly("ODataExample.Persistence");
+            //        builder.CommandTimeout((int)TimeSpan.FromMinutes(2).TotalSeconds);
+            //    }));
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -57,6 +67,16 @@ namespace ODataExample
             {
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "OData w/ ASP.NET Core");
             });
+
+            using (var serviceScope = app.ApplicationServices
+                .GetRequiredService<IServiceScopeFactory>()
+                .CreateScope())
+            {
+                using (var context = serviceScope.ServiceProvider.GetService<DatabaseContext>())
+                {
+                    context.Database.Migrate();
+                }
+            }
         }
     }
 }
