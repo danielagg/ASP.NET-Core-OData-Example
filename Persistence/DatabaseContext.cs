@@ -281,7 +281,37 @@ namespace Persistence
 
         private void PopulateTracks(ModelBuilder modelBuilder)
         {
-
+            modelBuilder.Entity<Track>().HasData(new[]
+            {
+                new Track
+                {
+                    Id = 1,
+                    AlbumId = 1,
+                    Name = "Feet Don't Fail Me",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 2,
+                    AlbumId = 1,
+                    Name = "The Evil Has Landed",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 3,
+                    AlbumId = 2,
+                    Name = "I Appear Missing",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 4,
+                    AlbumId = 2,
+                    Name = "Kalopsia",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                }
+            });
         }
 
         private void PopulatePlaylists(ModelBuilder modelBuilder)
