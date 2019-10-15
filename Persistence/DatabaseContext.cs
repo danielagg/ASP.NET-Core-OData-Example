@@ -498,7 +498,51 @@ namespace Persistence
 
         private void PopulateTrackPlaylistAssignments(ModelBuilder modelBuilder)
         {
-
+            modelBuilder.Entity<TrackPlaylistAssignment>().HasData(new[]
+            {
+                new TrackPlaylistAssignment
+                {
+                    Id = 1,
+                    PlaylistId = 1,
+                    TrackId = 17,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 11, 15)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 1,
+                    PlaylistId = 1,
+                    TrackId = 2,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 10, 13)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 1,
+                    PlaylistId = 1,
+                    TrackId = 1,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 10, 14)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 1,
+                    PlaylistId = 1,
+                    TrackId = 16,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 10, 14)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 1,
+                    PlaylistId = 1,
+                    TrackId = 18,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 12, 6)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 1,
+                    PlaylistId = 1,
+                    TrackId = 24,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 12, 13)
+                }
+            });
         }
 
         #endregion
