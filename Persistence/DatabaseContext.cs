@@ -231,7 +231,7 @@ namespace Persistence
                {
                    Id = 9,
                    ArtistId = 6,
-                   Name = "\"Let's Rock \"",
+                   Name = "\"Let's Rock\"",
                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
                },
                new Album
@@ -309,6 +309,153 @@ namespace Persistence
                     Id = 4,
                     AlbumId = 2,
                     Name = "Kalopsia",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 5,
+                    AlbumId = 3,
+                    Name = "Ramble On",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 6,
+                    AlbumId = 3,
+                    Name = "Whole Lotta Love",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 7,
+                    AlbumId = 4,
+                    Name = "Black Dog",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 8,
+                    AlbumId = 4,
+                    Name = "Rock and Roll",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 9,
+                    AlbumId = 4,
+                    Name = "Going to California",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 10,
+                    AlbumId = 5,
+                    Name = "Into the Void",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 11,
+                    AlbumId = 6,
+                    Name = "War Pigs",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 12,
+                    AlbumId = 6,
+                    Name = "Fairies Wear Boots",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 13,
+                    AlbumId = 7,
+                    Name = "Pearl Cadillac",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 14,
+                    AlbumId = 7,
+                    Name = "I Walk Alone",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 15,
+                    AlbumId = 7,
+                    Name = "The Guitar Man",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 16,
+                    AlbumId = 8,
+                    Name = "Gunman",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 17,
+                    AlbumId = 9,
+                    Name = "Eagle Birds",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 18,
+                    AlbumId = 10,
+                    Name = "Run Right Back",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 19,
+                    AlbumId = 10,
+                    Name = "Sister",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 20,
+                    AlbumId = 11,
+                    Name = "Requiem",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 21,
+                    AlbumId = 12,
+                    Name = "The Raven King",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 22,
+                    AlbumId = 13,
+                    Name = "Love of the Masses",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 23,
+                    AlbumId = 14,
+                    Name = "Funny Games",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 24,
+                    AlbumId = 15,
+                    Name = "Red Eyes And Tears",
+                    CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
+                },
+                new Track
+                {
+                    Id = 25,
+                    AlbumId = 15,
+                    Name = "As Sure As The Sun",
                     CreatedOn = DateTime.Parse("1990-01-01T12:00:00.0000000Z")
                 }
             });
