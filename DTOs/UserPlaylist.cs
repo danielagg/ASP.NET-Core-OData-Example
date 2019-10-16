@@ -4,7 +4,7 @@ namespace DTOs
 {
     public class UserPlaylist
     {
-        public Guid Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public string OwnerUserName { get; set; }
         public Track[] Tracks { get; set; }

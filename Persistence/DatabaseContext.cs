@@ -80,6 +80,7 @@ namespace Persistence
             public string Name { get; set; }
             public int UserId { get; set; }
             public virtual User User { get; set; }
+            public DateTime ModifiedOn { get; set; }
             public DateTime CreatedOn { get; set; }
         }
 
@@ -470,28 +471,32 @@ namespace Persistence
                    Id = 1,
                    Name = "Walk Like a Badass",
                    UserId = 1,
-                   CreatedOn = DateTime.Parse("2019-10-13T18:12:32.0000000Z")
+                   CreatedOn = DateTime.Parse("2019-10-13T18:12:32.0000000Z"),
+                   ModifiedOn = DateTime.Parse("2019-10-15T19:11:02.0000000Z")
                },
                new Playlist
                {
                    Id = 2,
                    Name = "Mellow Rock",
                    UserId = 1,
-                   CreatedOn = DateTime.Parse("2019-08-22T10:52:18.0000000Z")
+                   CreatedOn = DateTime.Parse("2019-08-22T10:52:18.0000000Z"),
+                   ModifiedOn = DateTime.Parse("2019-10-16T09:01:32.0000000Z")
                },
                new Playlist
                {
                    Id = 3,
                    Name = "Music to Focus",
                    UserId = 1,
-                   CreatedOn = DateTime.Parse("2018-12-30T14:02:25.0000000Z")
+                   CreatedOn = DateTime.Parse("2018-12-30T14:02:25.0000000Z"),
+                   ModifiedOn = DateTime.Parse("2019-10-16T12:16:12.0000000Z")
                },
                new Playlist
                {
                    Id = 4,
                    Name = "Oldschool Goodness",
                    UserId = 1,
-                   CreatedOn = DateTime.Parse("2018-10-05T08:36:10.0000000Z")
+                   CreatedOn = DateTime.Parse("2018-10-05T08:36:10.0000000Z"),
+                   ModifiedOn = DateTime.Parse("2019-10-13T21:59:23.0000000Z")
                }
             });
         }

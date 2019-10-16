@@ -14,6 +14,7 @@ using Swashbuckle.AspNetCore.Swagger;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using Microsoft.EntityFrameworkCore;
 using Persistence;
+using WebAPI.Services;
 
 namespace ODataExample
 {
@@ -38,6 +39,8 @@ namespace ODataExample
                     Title = "OData w/ ASP.NET Core"
                 });
             });
+
+            services.AddTransient<IPlaylistService, PlaylistService>();
 
             services.AddDbContextPool<DatabaseContext>(options =>
                 options.UseLazyLoadingProxies()

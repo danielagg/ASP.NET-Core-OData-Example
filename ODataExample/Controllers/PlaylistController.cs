@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using WebAPI.Services;
 
 namespace ODataExample.Controllers
 {
@@ -10,10 +11,18 @@ namespace ODataExample.Controllers
     [ApiController]
     public class PlaylistController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult Get()
+        private readonly IPlaylistService playlistService;
+
+        public PlaylistController(IPlaylistService playlistService)
         {
-            return Ok(new string[] { "value1", "value2" });
+            this.playlistService = playlistService ?? throw new ArgumentNullException(nameof(playlistService));
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Get(int userId)
+        {
+            var result = await playlistService.GetPlaylistsOfUser(userId);
+            return Ok(result);
         }
     }
 }
