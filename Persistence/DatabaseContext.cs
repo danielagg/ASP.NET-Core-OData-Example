@@ -509,38 +509,108 @@ namespace Persistence
                 },
                 new TrackPlaylistAssignment
                 {
-                    Id = 1,
+                    Id = 2,
                     PlaylistId = 1,
                     TrackId = 2,
                     AddedTrackToPlaylistOn = new DateTime(2019, 10, 13)
                 },
                 new TrackPlaylistAssignment
                 {
-                    Id = 1,
+                    Id = 3,
                     PlaylistId = 1,
                     TrackId = 1,
                     AddedTrackToPlaylistOn = new DateTime(2019, 10, 14)
                 },
                 new TrackPlaylistAssignment
                 {
-                    Id = 1,
+                    Id = 4,
                     PlaylistId = 1,
                     TrackId = 16,
                     AddedTrackToPlaylistOn = new DateTime(2019, 10, 14)
                 },
                 new TrackPlaylistAssignment
                 {
-                    Id = 1,
+                    Id = 5,
                     PlaylistId = 1,
                     TrackId = 18,
                     AddedTrackToPlaylistOn = new DateTime(2019, 12, 6)
                 },
                 new TrackPlaylistAssignment
                 {
-                    Id = 1,
+                    Id = 6,
                     PlaylistId = 1,
                     TrackId = 24,
                     AddedTrackToPlaylistOn = new DateTime(2019, 12, 13)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 7,
+                    PlaylistId = 2,
+                    TrackId = 4,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 8, 22)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 8,
+                    PlaylistId = 2,
+                    TrackId = 9,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 8, 23)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 9,
+                    PlaylistId = 2,
+                    TrackId = 21,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 10, 2)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 10,
+                    PlaylistId = 2,
+                    TrackId = 22,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 12, 6)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 11,
+                    PlaylistId = 2,
+                    TrackId = 23,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 12, 1)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 12,
+                    PlaylistId = 2,
+                    TrackId = 25,
+                    AddedTrackToPlaylistOn = new DateTime(2019, 11, 21)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 13,
+                    PlaylistId = 3,
+                    TrackId = 23,
+                    AddedTrackToPlaylistOn = new DateTime(2018, 12, 30)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 14,
+                    PlaylistId = 3,
+                    TrackId = 9,
+                    AddedTrackToPlaylistOn = new DateTime(2018, 12, 30)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 15,
+                    PlaylistId = 3,
+                    TrackId = 3,
+                    AddedTrackToPlaylistOn = new DateTime(2010, 1, 5)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 16,
+                    PlaylistId = 3,
+                    TrackId = 4,
+                    AddedTrackToPlaylistOn = new DateTime(2010, 1, 6)
                 }
             });
         }
