@@ -603,14 +603,70 @@ namespace Persistence
                     Id = 15,
                     PlaylistId = 3,
                     TrackId = 3,
-                    AddedTrackToPlaylistOn = new DateTime(2010, 1, 5)
+                    AddedTrackToPlaylistOn = new DateTime(2019, 1, 5)
                 },
                 new TrackPlaylistAssignment
                 {
                     Id = 16,
                     PlaylistId = 3,
                     TrackId = 4,
-                    AddedTrackToPlaylistOn = new DateTime(2010, 1, 6)
+                    AddedTrackToPlaylistOn = new DateTime(2019, 1, 6)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 17,
+                    PlaylistId = 4,
+                    TrackId = 5,
+                    AddedTrackToPlaylistOn = new DateTime(2018, 10, 5)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 18,
+                    PlaylistId = 4,
+                    TrackId = 6,
+                    AddedTrackToPlaylistOn = new DateTime(2018, 10, 6)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 19,
+                    PlaylistId = 4,
+                    TrackId = 7,
+                    AddedTrackToPlaylistOn = new DateTime(2018, 10, 11)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 20,
+                    PlaylistId = 4,
+                    TrackId = 8,
+                    AddedTrackToPlaylistOn = new DateTime(2018, 10, 11)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 21,
+                    PlaylistId = 4,
+                    TrackId = 9,
+                    AddedTrackToPlaylistOn = new DateTime(2018, 10, 12)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 22,
+                    PlaylistId = 4,
+                    TrackId = 10,
+                    AddedTrackToPlaylistOn = new DateTime(2018, 10, 16)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 23,
+                    PlaylistId = 4,
+                    TrackId = 11,
+                    AddedTrackToPlaylistOn = new DateTime(2018, 11, 1)
+                },
+                new TrackPlaylistAssignment
+                {
+                    Id = 24,
+                    PlaylistId = 4,
+                    TrackId = 12,
+                    AddedTrackToPlaylistOn = new DateTime(2018, 12, 9)
                 }
             });
         }
